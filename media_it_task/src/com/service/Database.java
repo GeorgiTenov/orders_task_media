@@ -26,7 +26,7 @@ public class Database {
 	
 	
 	public boolean connect() throws SQLException{
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3307/media_task","root","stunhead123");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3307/media_task","root","pass");
 
 		if(con != null) return true;
 		
